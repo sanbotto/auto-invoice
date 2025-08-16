@@ -1,0 +1,21 @@
+{
+  "name": "auto-invoice",
+  "version": "1.0.0",
+  "description": "This is a Cloudflare Worker written in JavaScript that automates the process of sending monthly invoices to clients. It is designed to be triggered on a schedule, generating personalized PDF invoices and sending them via email.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-pdf": "node test-pdf.js",
+    "secret:put": "wrangler secret put",
+    "secret:list": "wrangler secret list",
+    "secret:delete": "wrangler secret delete",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "author": "Santiago Botto <me@sbotto.com>",
+  "license": "AGPL-3.0",
+  "type": "module",
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}

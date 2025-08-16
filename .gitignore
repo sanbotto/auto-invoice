@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Secrets used by wrangler
+.dev.vars
+
+# Wrangler files
+wrangler.json
+wrangler.toml
+
+# Personal configuration
+src/config.json
+
+# Local dev
+.wrangler/
+node_modules/
+test-output/
+.claude/
+
+# OS files
+.DS_Store

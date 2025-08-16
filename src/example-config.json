@@ -1,0 +1,71 @@
+{
+  "company": {
+    "name": "YOUR_COMPANY_NAME",
+    "details": [
+      "YOUR_ADDRESS_LINE_1",
+      "YOUR_ADDRESS_LINE_2",
+      "YOUR_ADDRESS_LINE_3",
+      "YOUR_EMAIL",
+      "YOUR_TAX_ID",
+      "WHATEVER_ELSE_YOU_WANT_TO_ADD"
+    ]
+  },
+  "clients": [
+    {
+      "name": "CLIENT_1_NAME",
+      "details": [
+        "CLIENT_1_ADDRESS_LINE_1",
+        "CLIENT_1_ADDRESS_LINE_2",
+        "CLIENT_1_ADDRESS_LINE_3",
+        "CLIENT_1_EMAIL",
+        "CLIENT_1_TAX_ID",
+        "WHATEVER_ELSE_YOU_WANT_TO_ADD"
+      ],
+      "email_to": [ "CLIENT_1_EMAIL" ],
+      "email_cc": [ "CLIENT_1_EMAIL_CC" ],
+      "payment_details": [
+        "Account holder: YOUR_NAME",
+        "ACH and Wire routing number: YOUR_ROUTING_NUMBER",
+        "Account number: YOUR_ACCOUNT_NUMBER",
+        "Account type: YOUR_ACCOUNT_TYPE",
+        "WHATEVER_ELSE_YOU_WANT_TO_ADD"
+      ],
+      "services": [
+        {
+          "description": "SERVICE_1_DESCRIPTION",
+          "period": "SERVICE_1_PERIOD",
+          "quantity": 1.23,
+          "unit_price": 123.45,
+          "tax_rate": 7.3
+        }
+      ]
+    },
+    {
+      "name": "CLIENT_2_NAME",
+      "details": [
+        "CLIENT_2_ADDRESS_LINE_1",
+        "CLIENT_2_ADDRESS_LINE_2",
+        "CLIENT_2_ADDRESS_LINE_3",
+        "CLIENT_2_EMAIL",
+        "CLIENT_2_TAX_ID",
+        "WHATEVER_ELSE_YOU_WANT_TO_ADD"
+      ],
+      "email_to": [ "CLIENT_2_EMAIL" ],
+      "email_cc": [ "CLIENT_2_EMAIL_CC" ],
+      "payment_details": [
+        "Address: YOUR_WALLET_ADDRESS",
+        "Chain: YOUR_CHAIN",
+        "WHATEVER_ELSE_YOU_WANT_TO_ADD"
+      ],
+      "services": [
+        {
+          "description": "SERVICE_2_DESCRIPTION",
+          "period": "SERVICE_2_PERIOD",
+          "quantity": 1,
+          "unit_price": 1,
+          "tax_rate": 0.0
+        }
+      ]
+    }
+  ]
+}
