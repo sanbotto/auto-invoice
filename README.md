@@ -4,7 +4,7 @@ This is a Cloudflare Worker written in JavaScript that automates the process of 
 
 ## How it works
 
-The worker performs the following actions on a schedule (defaults to the 28th of every month):
+The worker performs the following actions on a schedule (defaults to the 25th of February and the 28th of every other month):
 
 1. **Reads Configuration**: It reads a `src/config.json` file to get a list of all clients that need to be invoiced.
 2. **Gets Invoice Number**: It connects to a Cloudflare KV store to get the last used invoice number and calculates the next sequential numbers for the current run.
